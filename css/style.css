@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+.body-home, .body-login {
+	background: url(../img/background.jpg);
+	background-size:cover;
+	background-attachment: fixed;
+}
+.navbar-nav a:hover {
+	color: #075a05; 
+	border: 2px solid  #075a05;
+	border-radius: 5px;
+	
+}
+.black-fill {
+	background: rgba(0,0,0, 0.7);
+	min-height: 100vh;
+}
+.navbar-nav a{
+	font-size: 20px;
+}
+#homeNav {
+	background: rgba(255,255,255, 0.5) !important;
+}
+.welcome-text {
+	min-height: 80vh;
+
+}
+
+.welcome-text img {
+	width: 100px;
+}
+
+.welcome-text h4 {
+	text-align: center;
+	color: #eee;
+	font-size: 60px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	
+
+}
+.welcome-text h5 {
+	color: #eee;
+	font-size: 50px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.welcome-text p {
+	margin-top: 70px;
+	color: #222;
+	text-align: center;
+	background: rgba(255,255,255, 0.5);
+	padding: 2px;
+	border-radius: 4px;
+}
+#about {
+	min-height: 100vh;
+}
+#about .card-1{
+	max-width: 600px;
+	width: 90%;
+	background: rgba(255,255,255, 0.5);
+	padding: 20px;
+	border-radius: 5px;
+}
+#about .card-1 h5{
+	font-family: 'Lobster', cursive;
+	font-size: 28px;
+}
+
+#contact {
+	min-height: 100vh;
+}
+#contact form{
+	max-width: 600px;
+	width: 90%;
+	background: rgba(255,255,255, 0.5);
+	padding: 20px;
+	border-radius: 5px;
+}
+#contact form h3 {
+	text-align: center;
+	font-family: 'Lobster', cursive;
+}
+textarea {
+	resize: none;
+}
+
+.login {
+	max-width: 450px;
+	width: 80%;
+	background: rgba(255,255,255, 0.5);
+	padding: 30px;
+	border-radius: 10px;
+}
+.login h3{
+	text-align: center;
+	font-size: 30px;
+}
